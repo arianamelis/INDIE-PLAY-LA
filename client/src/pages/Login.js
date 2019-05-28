@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import AuthService from './../components/AuthService';
 import {Link} from 'react-router-dom';
+import Wrapper from "../components/Wrapper";
+import Header from "../components/Header";
 
 class Login extends Component {
   constructor() {
@@ -37,8 +39,13 @@ class Login extends Component {
 
   render() {
     return (
-      <div className="container">
-        <h1>Login</h1>
+      <Wrapper>
+          <div className="container">
+        <Header>
+    
+        <h2>Login</h2>
+        </Header>
+        <div>
         <form onSubmit={this.handleFormSubmit}>
           <div className="form-group">
             <label htmlFor="email">Email address:</label>
@@ -61,7 +68,9 @@ class Login extends Component {
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
         <p><Link to="/signup">Go to Signup</Link></p>
+        </div>
       </div>
+      </Wrapper>
 
     );
   }

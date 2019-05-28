@@ -32,16 +32,18 @@
     z-index: 2;
     object-fit: contain;
     text-align: left;
+    font-size: 20px;
   }
   
   .hero h1, .hero h2 {
     color: white;
     text-align: left;
+    font-size: 10px;
   }
   
   .hero h1 {
-    font-size: 40px;
-    padding-top: 140px;
+    font-size: 20px;
+    padding-top: 80px;
     margin-top: 0;
     text-align: left;
   }

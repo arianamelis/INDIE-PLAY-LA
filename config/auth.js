@@ -1,4 +1,4 @@
-const db = require('../models/Index');
+const db = require('../models/index');
 const jwt = require('jsonwebtoken');
 
 module.exports = {

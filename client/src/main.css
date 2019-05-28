@@ -31,8 +31,8 @@ body {
 
 body  {
     font-family: 'Roboto', sans-serif;
-    background-image: url("https://cdn.pixabay.com/photo/2014/05/03/01/02/concert-336695_1280.jpg");
-    /* background-color:  #114357; */
+  
+    background-color:  #114357;
 }
   
   * {

@@ -14,7 +14,7 @@ import "./style.css";
     name = props.event.name
   }
     
-   
+  
   return (
     <div className="FavCard">
       <Card style={{ width: '18rem' }}>

@@ -40,7 +40,7 @@ export default class Search extends React.Component {
         <Row>
           <Col size="md-12">
             <h1 className="text-center">
-              <strong>Explore IndieEvents</strong>
+              <strong>Explore Indie Events</strong>
             </h1>
             <h2 className="text-center">
               Search and save upcoming indie events

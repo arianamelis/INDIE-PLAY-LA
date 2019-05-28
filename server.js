@@ -10,7 +10,8 @@ const PORT = process.env.PORT || 3001;
 
 const isAuthenticated = require("./config/isAuthenticated");
 const auth = require("./config/auth");
-
+app.use(morgan("dev"));
+app.use(routes);
 // Setting CORS so that any website can
 // Access our API
 app.use((req, res, next) => {
